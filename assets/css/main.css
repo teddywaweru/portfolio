@@ -265,6 +265,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		flex-direction: row;
 	}
 
 		.row > * {
@@ -2631,3 +2632,14 @@ input, select, textarea {
 				}
 
 	}
+
+
+/* column */
+
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    align-items: stretch;
+    flex-direction: column;
+}
