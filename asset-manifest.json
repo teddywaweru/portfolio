@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.107f7492.css",
-    "main.js": "/portfolio/static/js/main.7d7de435.js",
+    "main.css": "/portfolio/static/css/main.a0315723.css",
+    "main.js": "/portfolio/static/js/main.b476756e.js",
     "static/js/787.b701888c.chunk.js": "/portfolio/static/js/787.b701888c.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/TeddyW_portrait_photo_.jpg": "/portfolio/static/media/TeddyW_portrait_photo_.62557dd2803ba492c20a.jpg",
+    "static/media/MT4_MT5_Trading_Platform.png": "/portfolio/static/media/MT4_MT5_Trading_Platform.6acf53e7d9d3a5baed6c.png",
+    "static/media/spain_electrical_shortfall.jpg": "/portfolio/static/media/spain_electrical_shortfall.acdcd3002b5ddfc9b5ad.jpg",
+    "static/media/tableau_visualizations.jpg": "/portfolio/static/media/tableau_visualizations.0526324170a08acfc57f.jpg",
+    "static/media/blender.png": "/portfolio/static/media/blender.ee142622fed2a7dbe28f.png",
+    "static/media/tweet_sentiment_analysis.jpg": "/portfolio/static/media/tweet_sentiment_analysis.e344c18fcf359833a560.jpg",
     "index.html": "/portfolio/index.html",
-    "main.107f7492.css.map": "/portfolio/static/css/main.107f7492.css.map",
-    "main.7d7de435.js.map": "/portfolio/static/js/main.7d7de435.js.map",
+    "main.a0315723.css.map": "/portfolio/static/css/main.a0315723.css.map",
+    "main.b476756e.js.map": "/portfolio/static/js/main.b476756e.js.map",
     "787.b701888c.chunk.js.map": "/portfolio/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.107f7492.css",
-    "static/js/main.7d7de435.js"
+    "static/css/main.a0315723.css",
+    "static/js/main.b476756e.js"
   ]
 }
