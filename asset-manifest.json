@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c05d1ab7.css",
-    "main.js": "/portfolio/static/js/main.b8d2a80e.js",
+    "main.css": "/portfolio/static/css/main.edcd626e.css",
+    "main.js": "/portfolio/static/js/main.793af072.js",
     "static/js/787.b701888c.chunk.js": "/portfolio/static/js/787.b701888c.chunk.js",
     "static/media/TeddyW_portrait_photo_.jpg": "/portfolio/static/media/TeddyW_portrait_photo_.aeda8473d37decaa2752.jpg",
     "static/media/MT4_MT5_Trading_Platform.png": "/portfolio/static/media/MT4_MT5_Trading_Platform.6acf53e7d9d3a5baed6c.png",
@@ -11,12 +11,12 @@
     "static/media/co2-emission_analysis.jpg": "/portfolio/static/media/co2-emission_analysis.6d79a2e84201fd45c0e3.jpg",
     "static/media/tweet_sentiment_analysis.jpg": "/portfolio/static/media/tweet_sentiment_analysis.e344c18fcf359833a560.jpg",
     "index.html": "/portfolio/index.html",
-    "main.c05d1ab7.css.map": "/portfolio/static/css/main.c05d1ab7.css.map",
-    "main.b8d2a80e.js.map": "/portfolio/static/js/main.b8d2a80e.js.map",
+    "main.edcd626e.css.map": "/portfolio/static/css/main.edcd626e.css.map",
+    "main.793af072.js.map": "/portfolio/static/js/main.793af072.js.map",
     "787.b701888c.chunk.js.map": "/portfolio/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c05d1ab7.css",
-    "static/js/main.b8d2a80e.js"
+    "static/css/main.edcd626e.css",
+    "static/js/main.793af072.js"
   ]
 }
