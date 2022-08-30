@@ -57,8 +57,11 @@ export const projects = [
     }
   ];
 
+export const technologies = [
+    "Python","Pandas","Numpy","Scikit-learn","PyQt5"
+];
 export const skills = [
-    "Python","Pandas","Numpy","Scikit-learn",
+    "Version Control","CI/CD","Data processing","Documentation",
 ];
 
 export const testimonials = [

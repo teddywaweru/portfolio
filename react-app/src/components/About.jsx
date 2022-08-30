@@ -28,27 +28,27 @@ export default function About() {
           </h2>
           <br className="hidden lg:inline-block" />
           </h1>
-          <p className="mb-8 leading-relaxed text-white rounded-md ">
+          <p className="mb-8 leading-relaxed text-white rounded-md text-justify ">
             I am an aspiring <strong>back-end developer</strong> interested in <strong>building &amp; merging</strong>  services, &amp; dealing wih <strong>data.</strong>
           </p>
           <div className=" lg:flex-grow justify-end h-[100px] ">
-            <a
-              href="#contact"
-              className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
-              Quick Mail?
-            </a>
-            <a
-              href="#projects"
-              className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
-              See My Past Work
-            </a>
-            <div>
-              <div className=" text-center m-8">
+            <div className="flex flex-row sm:w-auto text-center">
+              <a
+                href="#contact"
+                className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
+                Quick Mail?
+              </a>
+              <a
+                href="#projects"
+                className="ml-4 inline-flex text-gray-400 bg-gray-800 border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-lg">
+                See My Past Work
+              </a>
+            </div>
+            <div className=" text-center pt-4">
               <a href="https://www.github.com/teddywaweru" target="_blank" rel="noreferrer">
               <FontAwesomeIcon  className="fill-current text-gray-500 text-right m-4" size='3x' icon={faLinkedin}/>
               <FontAwesomeIcon  className="fill-current text-gray-500 text-right m-4" size='3x' icon={faGithub}/>
               </a>
-              </div>
             </div>
           </div>
         </div>
