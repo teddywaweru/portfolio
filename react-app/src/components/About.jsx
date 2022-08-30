@@ -10,7 +10,7 @@ export default function About() {
     <section id="about" className="bg-gray-900">
       <p className="text-center text-white">
         <em>Under active development. Contact Teddy via mail: 
-          <a href="mailto:" className="text-green-500">teddywaweru@gmail.com</a>
+          <a href="mailto:teddywaweru@gmail.com" className="text-green-500">teddywaweru@gmail.com</a>
         </em>
       </p>
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
@@ -34,7 +34,7 @@ export default function About() {
           <div className=" lg:flex-grow justify-end h-[100px] ">
             <div className="flex flex-row sm:w-auto text-center">
               <a
-                href="#contact"
+                href="mailto:teddywaweru@gmail.com"
                 className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
                 Quick Mail?
               </a>
