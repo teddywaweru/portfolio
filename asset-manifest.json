@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eca603aa.css",
-    "main.js": "/portfolio/static/js/main.a487502e.js",
+    "main.js": "/portfolio/static/js/main.1150e103.js",
     "static/js/787.b701888c.chunk.js": "/portfolio/static/js/787.b701888c.chunk.js",
     "static/media/TeddyW_portrait_photo_.jpg": "/portfolio/static/media/TeddyW_portrait_photo_.aeda8473d37decaa2752.jpg",
     "static/media/MT4_MT5_Trading_Platform.png": "/portfolio/static/media/MT4_MT5_Trading_Platform.6acf53e7d9d3a5baed6c.png",
@@ -12,11 +12,11 @@
     "static/media/tweet_sentiment_analysis.jpg": "/portfolio/static/media/tweet_sentiment_analysis.e344c18fcf359833a560.jpg",
     "index.html": "/portfolio/index.html",
     "main.eca603aa.css.map": "/portfolio/static/css/main.eca603aa.css.map",
-    "main.a487502e.js.map": "/portfolio/static/js/main.a487502e.js.map",
+    "main.1150e103.js.map": "/portfolio/static/js/main.1150e103.js.map",
     "787.b701888c.chunk.js.map": "/portfolio/static/js/787.b701888c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eca603aa.css",
-    "static/js/main.a487502e.js"
+    "static/js/main.1150e103.js"
   ]
 }
