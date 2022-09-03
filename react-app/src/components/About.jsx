@@ -2,6 +2,7 @@ import React from "react";
 import teddyWPortrait from "../imgs/TeddyW_portrait_photo_.jpg";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub,faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 
 
@@ -16,7 +17,7 @@ export default function About() {
       <div className="container mx-auto flex px-10 py-20 md:flex-row flex-col items-center">
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
 
-        <img className="rounded-full" src={teddyWPortrait} alt="" />
+        <LazyLoadImage width={600} height={400} className="rounded-full" src={teddyWPortrait} alt="" />
       </div>
 
         {/* <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"> */}
@@ -46,8 +47,10 @@ export default function About() {
             </div>
             <div className=" text-center pt-4">
               <a href="https://www.github.com/teddywaweru" target="_blank" rel="noreferrer">
-              <FontAwesomeIcon  className="fill-current text-gray-500 text-right m-4" size='3x' icon={faLinkedin}/>
-              <FontAwesomeIcon  className="fill-current text-gray-500 text-right m-4" size='3x' icon={faGithub}/>
+                <FontAwesomeIcon  className="fill-current text-gray-500 text-right m-4" size='3x' icon={faGithub}/>
+              </a>
+              <a href="https://www.linkedin.com/in/teddy-waweru-7b6170105/" target="_blank" rel="noreferrer">
+                <FontAwesomeIcon  className="fill-current text-gray-500 text-right m-4" size='3x' icon={faLinkedin}/>
               </a>
             </div>
           </div>

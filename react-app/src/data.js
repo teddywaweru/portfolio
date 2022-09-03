@@ -34,7 +34,7 @@ export const projects = [
       title: "MetaTrader 5 Trade Management Application",
       subtitle: "Python GUI app for trading",
       description:
-        "Meta Trader is a global electronic platform used in speculative trading of financial instruments. I embarked on developing a Python Windows GUI platform that offers additional functionalities in trade management, which would link with the platform via available APIs.",
+        "MetaTrader is speculation trading platform for financial instruments. I embarked on developing a Python Windows GUI platform that offers additional functionalities in trade management, which would link with the platform via available APIs.",
       image: mt4Mt5TradingPlatformJPG,
       link: "https://teddywaweru.github.io/MT5-trade-manager/",
     },
@@ -58,10 +58,10 @@ export const projects = [
   ];
 
 export const technologies = [
-    "Python","Pandas","Numpy","Scikit-learn","PyQt5"
+    "Python","Pandas","Numpy","Scikit-learn","PyQt5", "Javascript"
 ];
 export const skills = [
-    "Version Control","CI/CD","Data processing","Documentation",
+    "Version Control","CI/CD","Data processing","Documentation", "Scripting"
 ];
 
 export const testimonials = [

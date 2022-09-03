@@ -15,35 +15,52 @@ export default function Projects() {
             {/* TODO */}
           </p>
         </div>
+
+        {/* <div>
+          <div>
+            <h2>Data Science Projects</h2>
+          </div>
+          <div>
+            <h2>Systems Programming</h2>
+          </div>
+          <div>
+            <h2>Hobby-related</h2>
+          </div>
+
+
+        </div> */}
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
-            <a
-              href={project.link}
-              key={project.image}
-              className="sm:w-1/2 w-100 p-4"
-              target="blank">
-              <div className="flex relative">
-                <img
-                  alt="gallery"
-                  className="absolute inset-0 w-full object-cover object-center rounded-3xl h-full"
-                  src={project.image}
-                />
-                <div className=" flex relative opacity-0 hover:opacity-95 transition-all duration-500">
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 transition-all duration-500">
-                  <h1 className="title-font text-lg font-semibold text- text-white mb-3">
-                    {project.title}
-                  </h1>
-                  <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
-                    <em>{project.subtitle}</em> 
-                  </h2>
-                  <p className="leading-relaxed text-white">{project.description}</p>
+            // <div className="flex h-80">
+              <a
+                href={project.link}
+                key={project.image}
+                className="sm:w-1/2 w-100 p-4"
+                target="blank">
+                <div className="flex relative">
+                  <img
+                    width={600} height={400}
+                    alt="gallery"
+                    className="absolute inset-0 w-full object-cover object-center rounded-3xl h-full"
+                    src={project.image}
+                  />
+                  <div className=" flex relative opacity-0 hover:opacity-95 transition-all duration-500">
+                  <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 transition-all duration-500">
+                    <h1 className="title-font text-lg font-semibold text- text-white mb-3">
+                      {project.title}
+                    </h1>
+                    <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
+                      <em>{project.subtitle}</em> 
+                    </h2>
+                    <p className="leading-relaxed text-white">{project.description}</p>
+                  </div>
+                  <div className=" w-32">
+                    {/* TODO */}
+                  </div>
+                  </div>
                 </div>
-                <div className=" w-32">
-                  {/* TODO */}
-                </div>
-                </div>
-              </div>
-            </a>
+              </a>
+            // </div>
           ))}
         </div>
       </div>
