@@ -1,9 +1,9 @@
-import spainElectricalShortfallJPG from "./imgs/projects/spain_electrical_shortfall.jpg"
-import tweetSentimentAnalysisJPG from "./imgs/projects/tweet_sentiment_analysis.jpg"
-import tableauVisualizationsJPG from "./imgs/projects/tableau_visualizations.jpg"
-import mt4Mt5TradingPlatformJPG from "./imgs/projects/MT4_MT5_Trading_Platform.png"
-import blenderJPG from "./imgs/projects/blender.png"
-import co2EmissionAnalysis from "./imgs/projects/co2-emission_analysis.jpg"
+import spainElectricalShortfallJPG from "./imgs/projects/spain_electrical_shortfall.webp"
+import tweetSentimentAnalysisJPG from "./imgs/projects/tweet_sentiment_analysis.webp"
+import tableauVisualizationsJPG from "./imgs/projects/tableau_visualizations.webp"
+import mt4Mt5TradingPlatformJPG from "./imgs/projects/MT4_MT5_Trading_Platform.webp"
+import blenderJPG from "./imgs/projects/blender.webp"
+import co2EmissionAnalysis from "./imgs/projects/co2-emission_analysis.webp"
 
 export const projects = [
     {
